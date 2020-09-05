@@ -1,11 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Combine from "./components/Combine";
 function App() {
   return (
     <div className="App">
-      <h1>Movie-react-app</h1>
+      <Router>
+        <Switch>
+          <Route exact path="/movie-react-app/" component={Combine}></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
