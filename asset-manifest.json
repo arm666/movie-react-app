@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movie-react-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/movie-react-app/static/js/main.40307f37.chunk.js",
+    "main.js.map": "/movie-react-app/static/js/main.40307f37.chunk.js.map",
+    "runtime-main.js": "/movie-react-app/static/js/runtime-main.c18482c4.js",
+    "runtime-main.js.map": "/movie-react-app/static/js/runtime-main.c18482c4.js.map",
+    "static/js/2.49ce2d64.chunk.js": "/movie-react-app/static/js/2.49ce2d64.chunk.js",
+    "static/js/2.49ce2d64.chunk.js.map": "/movie-react-app/static/js/2.49ce2d64.chunk.js.map",
+    "index.html": "/movie-react-app/index.html",
+    "precache-manifest.d75bcd13b84baece03e845c05ce1e183.js": "/movie-react-app/precache-manifest.d75bcd13b84baece03e845c05ce1e183.js",
+    "service-worker.js": "/movie-react-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/movie-react-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.49ce2d64.chunk.js.LICENSE.txt": "/movie-react-app/static/js/2.49ce2d64.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/movie-react-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c18482c4.js",
+    "static/js/2.49ce2d64.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.40307f37.chunk.js"
+  ]
+}
