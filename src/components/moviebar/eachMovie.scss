@@ -1,5 +1,7 @@
 .eachMovie {
   background: #222;
+  position: relative;
+  
   .selectdMovie {
     position: relative;
     z-index: 1;
@@ -17,14 +19,15 @@
       }
     }
     .posterAndInfo {
-      padding: 20px 20px 0 100px;
+      padding: 40px 20px 0 100px;
       display: flex;
       .poster {
         $height: 400;
         width: $height * 0.67px;
         .img {
           img {
-            width: 100%;
+            // width: 100%;
+            width: $height * 0.67px;
             border: 10px solid white;
             border-radius: 5px;
           }

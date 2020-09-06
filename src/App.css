@@ -1,3 +1,7 @@
+body {
+  background: #333;
+}
+
 .App .HomePage {
   display: flex;
   height: 100vh;
@@ -78,4 +82,16 @@
 .App .HomePage .homeMovieBar {
   flex: 1;
   background: #333;
+}
+
+.App .HomePage .homeMovieBar .navbars {
+  background: #333;
+}
+
+.App .HomePage .homeMovieBar .navbars .appName {
+  display: none;
+}
+
+.App .HomePage .homeMovieBar .navbars ul .items input {
+  flex: 1;
 }

@@ -46,11 +46,12 @@ function useGetGenre(genresList) {
   useEffect(() => {
     var genre = "";
     genresList.map((val) => {
-      genre_ids.includes(val) && (genre +=", "+ genre_names[genre_ids.indexOf(val)]);
+      genre_ids.includes(val) &&
+        (genre += ", " + genre_names[genre_ids.indexOf(val)]);
     });
     setGenres(genre);
   }, [genres]);
-  return genres.substr(1,);
+  return genres.substr(1);
 }
 
 export default useGetGenre;

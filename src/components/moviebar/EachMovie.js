@@ -2,13 +2,15 @@ import React, { useEffect, useState, useReducer } from "react";
 import "./eachMovie.css";
 import HomeMovieBar from "./HomeMovieBar";
 import MovieDetail from "./MovieDetail";
-
+import NavBar from "./../navbar/NavBar";
 function EachMovie(match) {
   return (
     <div className="eachMovie">
+      <NavBar />
       <MovieDetail movieId={match.match.params.id} />
       <div className="similarMovies">
         <div className="similarMovieTitle">Similar Movies</div>
+        {/* <HomeMovieBar url={"/movie/" + match.match.params.id + "/similar"} /> */}
         <HomeMovieBar url={"/movie/" + match.match.params.id + "/similar"} />
       </div>
     </div>

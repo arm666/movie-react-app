@@ -4,9 +4,11 @@ function Sidebar({ setMenu }) {
   // list of menus
   const menus = [
     { title: "Now Playing", url: "/movie/now_playing" },
+    { title: "Trending", url: "/trending/movie/day" },
     { title: "Popular", url: "/movie/popular" },
     { title: "Top Rated", url: "/movie/top_rated" },
     { title: "Upcoming", url: "/movie/upcoming" },
+    { title: "Discover", url: "/discover/movie" },
   ];
 
   // is called when menu is selected

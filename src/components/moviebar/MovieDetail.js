@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import useGetEachMovie from "./../hooks/getEachMovie";
 
 function MovieDetail({ movieId }) {
@@ -83,3 +83,5 @@ function MovieDetail({ movieId }) {
 }
 
 export default MovieDetail;
+
+// https://api.themoviedb.org/3/movie/337401/images?api_key=85b891d38491973c0dff31bd631036b3

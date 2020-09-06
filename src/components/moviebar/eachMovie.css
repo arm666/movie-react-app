@@ -1,5 +1,6 @@
 .eachMovie {
   background: #222;
+  position: relative;
 }
 
 .eachMovie .selectdMovie {
@@ -23,7 +24,7 @@
 }
 
 .eachMovie .selectdMovie .posterAndInfo {
-  padding: 20px 20px 0 100px;
+  padding: 40px 20px 0 100px;
   display: flex;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .eachMovie .selectdMovie .posterAndInfo .poster .img img {
-  width: 100%;
+  width: 268px;
   border: 10px solid white;
   border-radius: 5px;
 }

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "./sidebar/Sidebar";
 import HomeMovieBar from "./moviebar/HomeMovieBar";
+import NavBar from "./navbar/NavBar";
+
 function Combine() {
   // var for menu to show
   const [menu, setMenu] = useState("/movie/now_playing");
@@ -14,6 +16,7 @@ function Combine() {
         <Sidebar setMenu={setMenu} />
       </div>
       <div className="pages homeMovieBar">
+        <NavBar />
         {/* main movie bar for homepage */}
         <HomeMovieBar url={menu} />
       </div>
