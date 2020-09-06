@@ -6,7 +6,7 @@ function MovieCard({ details }) {
     <div className="movieCard">
       <div className="vote_average">{details.vote_average}</div>
       <div className="posterImg">
-        <img src={"https://image.tmdb.org/t/p/w500/" + details.poster_path} />
+        <img src={"https://image.tmdb.org/t/p/w500/" + details.poster_path}  alt="poster" />
       </div>
       <div className="content">
         <div className="title">{details.original_title}</div>

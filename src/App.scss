@@ -3,11 +3,9 @@
     display: flex;
     height: 100vh;
     overflow: hidden;
-    .pages {
-    }
+
     .sideBar {
       background: rgb(25, 28, 31);
-
       .menus {
         display: flex;
         flex-direction: column;
@@ -29,8 +27,8 @@
           }
         }
         .menu {
-          margin: 10px 0px;
-          padding: 10px 50px;
+          margin: 5px 0px;
+          padding: 20px 50px;
           padding-right: 80px;
           color: grey;
           font-weight: 600;
@@ -58,7 +56,6 @@
           }
           &::after {
             position: absolute;
-
             right: 20px;
             content: url(./components/assets/arrow-right.svg);
             width: 20px;
@@ -71,6 +68,7 @@
     }
     .homeMovieBar {
       flex: 1;
+      background: #333;
     }
   }
 }

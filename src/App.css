@@ -33,8 +33,8 @@
 }
 
 .App .HomePage .sideBar .menus .menu {
-  margin: 10px 0px;
-  padding: 10px 50px;
+  margin: 5px 0px;
+  padding: 20px 50px;
   padding-right: 80px;
   color: grey;
   font-weight: 600;
@@ -77,4 +77,5 @@
 
 .App .HomePage .homeMovieBar {
   flex: 1;
+  background: #333;
 }
