@@ -18,7 +18,7 @@ function Combine() {
       <div className="pages homeMovieBar">
         <NavBar />
         {/* main movie bar for homepage */}
-        <HomeMovieBar url={menu} query=""/>
+        <HomeMovieBar url={menu} query=" " />
       </div>
     </div>
   );
