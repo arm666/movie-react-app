@@ -13,7 +13,7 @@ function useGetMovies(url, query) {
   const getMovie = () => {
     // api path
     const path =
-      "http://api.themoviedb.org/3" +
+      "https://api.themoviedb.org/3" +
       url +
       "?api_key=85b891d38491973c0dff31bd631036b3&" +
       query;

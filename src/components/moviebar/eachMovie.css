@@ -54,6 +54,10 @@
   font-size: 18px;
 }
 
+.eachMovie .selectdMovie .posterAndInfo .info .YearAndGenre .Year {
+  font-size: 25px;
+}
+
 .eachMovie .selectdMovie .posterAndInfo .info .Rating {
   font-size: 50px;
   font-weight: 600;

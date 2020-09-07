@@ -1,10 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./moviebar.css";
 import MovieCard from "./../MovieCard";
 import useGetMovies from "./../hooks/getMovies";
 import { NavLink } from "react-router-dom";
 
 function HomeMovieBar({ url, query }) {
+  useEffect(() => {
+    document.querySelector(".moviesList").scrollTo(0, 0);
+  }, [url])
   // stores movies
   const { movieList } = useGetMovies(url, query);
   return (

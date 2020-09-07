@@ -23,9 +23,10 @@ function Sidebar({ setMenu }) {
   };
 
   useEffect(() => {
+
     // adds menuActive for first index
     changeActiveMenu(0);
-  }, []);
+  }, [setMenu]);
 
   return (
     <div className="menus">

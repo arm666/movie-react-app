@@ -1,7 +1,6 @@
 .eachMovie {
   background: #222;
   position: relative;
-  
   .selectdMovie {
     position: relative;
     z-index: 1;
@@ -44,6 +43,10 @@
           margin: 20px 0;
           font-weight: 700;
           font-size: 18px;
+          .Year{
+            font-size: 25px;
+
+          }
         }
         .Rating {
           font-size: 50px;

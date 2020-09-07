@@ -28,7 +28,7 @@ function MovieDetail({ movieId }) {
             <div className="info">
               <div className="Title">{eachMovie.original_title}</div>
               <div className="YearAndGenre">
-                <div className="Year">{eachMovie.release_date}</div>
+                <div className="Year">{eachMovie.release_date.substring(0,4)}</div>
                 <div className="Genre">
                   {eachMovie.genres.map(
                     (val, index) =>
